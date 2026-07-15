@@ -1,16 +1,69 @@
-# React + Vite
+# 🌐 MediaVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MediaVerse is a modern media search web application built with React that allows users to search, explore, and save photos, videos, and GIFs in one place.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 **Live Website:**  https://mediaverse-nine.vercel.app/
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search photos, videos, and GIFs
+- 📷 Explore high-quality photos
+- 🎥 Search and browse videos
+- 🎞️ Discover GIFs
+- ❤️ Save media to a personal collection
+- 💾 Collection data stored using Local Storage
+- ⚡ Fast and responsive user interface
+- 📱 Responsive design
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- Redux Toolkit
+- React Redux
+- React Router DOM
+- Tailwind CSS
+- Axios
+- React Toastify
+
+## 🌍 APIs Used
+
+MediaVerse uses the following APIs:
+
+- Unsplash API — Photo search
+- Pexels API — Video search
+
+
+## 📁 Project Structure
+
+```text
+MediaVerse/
+├── public/
+├── src/
+│   ├── api/
+│   │   └── MediaApi.js
+│   ├── assets/
+│   ├── components/
+│   │   ├── CollectionCard.jsx
+│   │   ├── NavBar.jsx
+│   │   ├── ResultCard.jsx
+│   │   ├── ResultGrid.jsx
+│   │   ├── SearchBar.jsx
+│   │   └── Tabs.jsx
+│   ├── pages/
+│   │   ├── CollectionPage.jsx
+│   │   └── Home.jsx
+│   ├── redux/
+│   │   ├── features/
+│   │   │   ├── collectionSlice.js
+│   │   │   └── searchSlice.js
+│   │   └── store.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env.example
+├── .gitignore
+├── package.json
+└── vite.config.js
