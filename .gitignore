@@ -1,0 +1,27 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+VITE_UNSPLASH_KEY='hLZZFxO-Vjgqw9prOgtaR_S1Dj9W__PXkDgDn9o-2jE';
+VITE_PEXELS_KEY='Zr7p9bpdJhjwoYyDFVXNO5f1tZT25DRb5wI4QpjiQ2qIezhFViObfq97';

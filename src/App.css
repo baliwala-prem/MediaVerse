@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Toast Box */
+.custom-toast {
+  border-radius: 16px;
+  font-weight: 600;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  backdrop-filter: blur(8px);
+}
+
+/* Body */
+.custom-toast-body {
+  font-size: 15px;
+}
+
+/* Progress Bar */
+.custom-progress {
+  background: linear-gradient(
+    90deg,
+    #00ff87,
+    #60efff,
+    #ff00ff,
+    #ff9800
+  ) !important;
+}
